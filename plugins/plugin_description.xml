@@ -1,0 +1,23 @@
+<library path="rviz_tools2">
+  <!--<class name="rviz_tools2/BoolTool"
+         type="rviz_tools2::tools::BoolTool"
+         base_class_type="rviz_common::Tool">
+    <description>
+      Allows you to publish a Bool message to selected topic.
+    </description>
+  </class>-->
+  <class name="rviz_tools2/AutoStart"
+         type="rviz_tools2::tools::AutoStart"
+         base_class_type="rviz_common::Tool">
+    <description>
+      Allows you to start the car via rViz.
+    </description>
+  </class>
+  <class name="rviz_tools2/AutoStop"
+         type="rviz_tools2::tools::AutoStop"
+         base_class_type="rviz_common::Tool">
+    <description>
+      Allows you to stop the car via rViz.
+    </description>
+  </class>
+</library>
